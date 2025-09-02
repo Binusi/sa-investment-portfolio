@@ -1,0 +1,29 @@
+name: sa-investor
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - matplotlib
+  - plotly
+  - jupyterlab
+  - ipykernel
+  - pip:
+      - yfinance
+      - backtesting
+      - PyPortfolioOpt
+      - scikit-learn
+      - fastapi
+      - uvicorn[standard]
+      - pydantic
+      - python-dotenv
+      - requests
+      - pytest
+      - black
+      - isort
+      - flake8
+      - mlflow
